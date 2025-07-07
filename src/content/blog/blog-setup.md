@@ -8,7 +8,7 @@ category: "technology"
 # remove this line to publish
 draft: false
 # author slug: choose from "./src/data/authors.js"
-author: "Philip Rønnest"
+author: "philip-ronnest"
 tags: [website, deployment, blog]
 ---
 

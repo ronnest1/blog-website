@@ -1,11 +1,12 @@
 import marioImage from "../assets/authors/mario.webp";
 import joshuaImage from "../assets/authors/joshua.webp";
 import erikaImage from "../assets/authors/erika.webp";
+import philipImage from "../assets/authors/philip-ronnest.png";
 
 export interface Props {
   name: string;
   slug: string;
-  image: string;
+  image: ImageMetadata;
   bio: string;
 }
 
@@ -29,5 +30,11 @@ export const authors: Props[] = [
     slug: "erika-oliver",
     image: erikaImage,
     bio: "Erika Oliver is a successful entrepreuner. She is the founder of Acme Inc, a bootstrapped business that builds affordable SaaS tools for local news, indie publishers, and other small businesses.",
+  },
+  {
+    name: "Philip Rønnest",
+    slug: "philip-ronnest",
+    image: philipImage,
+    bio: "Yada yada yada. I'm good and all that :) ",
   },
 ];
